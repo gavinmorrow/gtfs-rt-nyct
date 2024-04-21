@@ -1,8 +1,8 @@
 [package]
-name = "gtfs-rt"
-description = "Read, write, and manipulate GTFS-Realtime data"
-version = "0.4.0"
-authors = ["Erin Moon <erin@hecke.rs>"]
+name = "gtfs-realtime"
+description = "Up to date GTFS Realtime specification"
+version = "0.4.2"
+authors = ["Kyler Chin <kyler@catenarymaps.org>"]
 license = "MIT AND Apache-2.0"
 repository = "https://github.com/barzamin/gtfs-rt"
 
