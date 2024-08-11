@@ -1,19 +1,19 @@
 [package]
-name = "gtfs-rt"
-description = "Read, write, and manipulate GTFS-Realtime data"
-version = "0.5.1"
-authors = ["Erin Moon <erin@hecke.rs>"]
+name = "gtfs-realtime"
+description = "Updated GTFS Realtime bindings"
+version = "0.1"
+authors = ["Kyler Chin <kyler@catenarymaps.org>","Erin Moon <erin@hecke.rs>"]
 license = "MIT AND Apache-2.0"
 repository = "https://github.com/barzamin/gtfs-rt"
-edition = "2018"
+edition = "2021"
 
 [badges]
-maintenance = { status = "passively-maintained" }
+maintenance = { status = "actively-developed" }
 
 [dependencies]
-prost = "0.11"
-prost-derive = "0.11"
+prost = "0.13.1"
+prost_derive = "0.13.1"
 serde = { version = "1.0", features = ["derive"] }
 
 [build-dependencies]
-prost-build = "0.11"
+prost-build = "0.13.1"
