@@ -1,4 +1,4 @@
-use gtfs_rt::FeedMessage;
+use gtfs_realtime::FeedMessage;
 use prost::Message;
 use std::env;
 use std::error::Error;
