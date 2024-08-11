@@ -4,7 +4,7 @@ description = "Updated GTFS Realtime bindings"
 version = "0.1"
 authors = ["Kyler Chin <kyler@catenarymaps.org>","Erin Moon <erin@hecke.rs>"]
 license = "MIT AND Apache-2.0"
-repository = "https://github.com/barzamin/gtfs-rt"
+repository = "https://github.com/catenarytransit/gtfs-realtime"
 edition = "2021"
 
 [badges]
