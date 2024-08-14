@@ -1,6 +1,6 @@
 //! ## Decoding and Encoding example GTFS data example
 //! 
-//! ```rs
+//! ```rust
 //! use prost::Message;
 //! 
 //! let url = "https://lbtgtfs.lbtransit.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb";
