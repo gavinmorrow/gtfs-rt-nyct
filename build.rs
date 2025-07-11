@@ -6,6 +6,8 @@ fn main() {
             ".",
             "#[derive(Deserialize,Serialize)] #[serde(rename_all = \"snake_case\")]",
         )
-        .compile_protos(&["src/gtfs-realtime.proto"], &["src/"])
+        .protoc_arg("--proto_path")
+        .protoc_arg("./proto")
+        .compile_protos(&["./proto/gtfs-realtime-NYCT.proto"], &["src/"])
         .unwrap();
 }
