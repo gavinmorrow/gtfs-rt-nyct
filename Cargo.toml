@@ -1,14 +1,14 @@
 [package]
-name = "gtfs-realtime"
-description = "Updated GTFS Realtime bindings"
+name = "gtfs-rt-nyct"
+description = "GTFS-RT bindings for NYCT"
 version = "0.1.4"
-authors = ["Kyler Chin <kyler@catenarymaps.org>","Erin Moon <erin@hecke.rs>"]
+authors = ["Gavin Morrow <gavinfmorrow@gmail.com>", "Kyler Chin <kyler@catenarymaps.org>","Erin Moon <erin@hecke.rs>"]
 license = "MIT AND Apache-2.0"
-repository = "https://github.com/catenarytransit/gtfs-realtime"
+repository = "https://github.com/gavinmorrow/gtfs-rt-nyct"
 edition = "2024"
 
 [badges]
-maintenance = { status = "actively-developed" }
+maintenance = { status = "experimental" }
 
 [dependencies]
 prost = "0.13.3"
