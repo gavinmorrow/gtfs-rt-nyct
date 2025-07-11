@@ -37,7 +37,7 @@ message NyctFeedHeader {
   repeated TripReplacementPeriod trip_replacement_period = 2;
 }
 
-extend FeedHeader {
+extend transit_realtime.FeedHeader {
  optional NyctFeedHeader nyct_feed_header = 1001;
 }
 
