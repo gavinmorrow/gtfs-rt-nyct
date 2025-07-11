@@ -1,7 +1,7 @@
 [package]
 name = "gtfs-rt-nyct"
 description = "GTFS-RT bindings for NYCT"
-version = "0.1.4"
+version = "0.2.0"
 authors = ["Gavin Morrow <gavinfmorrow@gmail.com>", "Kyler Chin <kyler@catenarymaps.org>","Erin Moon <erin@hecke.rs>"]
 license = "MIT AND Apache-2.0"
 repository = "https://github.com/gavinmorrow/gtfs-rt-nyct"
