@@ -339,10 +339,13 @@ message TripUpdate {
     // NOTE: This field is still experimental, and subject to change. It may be formally adopted in the future.
     optional StopTimeProperties stop_time_properties = 6;
 
+    // NYCT extension
+    optional NyctStopTimeUpdate nyct_stop_time_update = 1001;
+
     // The extensions namespace allows 3rd-party developers to extend the
     // GTFS Realtime Specification in order to add and evaluate new features
     // and modifications to the spec.
-    extensions 1000 to 1999;
+    extensions 1002 to 1999;
 
     // The following extension IDs are reserved for private use by any organization.
     extensions 9000 to 9999;
@@ -1398,8 +1401,4 @@ message NyctStopTimeUpdate {
   // schedule.  The rules engine for the 'countdown' clocks will remove this
   // train from all schedule stations.
   optional string actual_track = 2;
-}
-
-extend transit_realtime.TripUpdate.StopTimeUpdate {
-  optional NyctStopTimeUpdate nyct_stop_time_update = 1001;
 }
