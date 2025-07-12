@@ -8,6 +8,6 @@ fn main() {
         )
         .protoc_arg("--proto_path")
         .protoc_arg("./proto")
-        .compile_protos(&["./proto/gtfs-realtime-NYCT.proto"], &["src/"])
+        .compile_protos(&["./proto/gtfs-realtime.proto"], &["src/"])
         .unwrap();
 }
