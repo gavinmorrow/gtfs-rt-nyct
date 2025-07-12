@@ -1364,10 +1364,6 @@ message NyctTripDescriptor {
   optional Direction direction = 3;
 }
 
-// extend transit_realtime.TripDescriptor {
-  // optional NyctTripDescriptor nyct_trip_descriptor = 1001;
-// }
-
 // NYCT Subway extensions for the stop time update
 message NyctStopTimeUpdate {
   // Provides the planned station arrival track. The following is the Manhattan
